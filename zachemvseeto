@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="kt.css"/>
+    <body>
+<style>
+
+.hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    border: 2px;
+    border-radius: 50px;
+    transition: 0.5 ease;
+    align-items: center;
+}
+.hover:hover{
+    background-color: black;
+    color: #F8F8F8;
+}
+
+.fon{
+    background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/fa/f7/78faf7a9-97c0-5aa7-df1e-547da9703178/196922946356_Cover.jpg/1200x630wp-60.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 100%;
+    background-position: top;
+    background-color: #F8F8F8;
+    text-align: center;
+    font-size: 150px;
+    margin-top: 20px;
+    
+}
+.flex-container {
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+.flex-card {
+    width: 400px;
+    padding: 70px;
+    text-align: center;
+    background-color: #F8F8F8;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+img{
+    align-items: center ;
+    width: 400px;
+}
+footer{
+    text-align: center;
+}
+pre{
+    text-align: center;
+}
+button{
+    align-items: center;
+}
+.fon2{
+    background-image: url("https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_520,w_1000,x_0,y_145,f_auto,q_auto:eco/Beabadoobee_-_landscape_press_shot_uv8c4a/Beabadoobee_-_landscape_press_shot_uv8c4a.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-color: #F8F8F8;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+}
+</style>
+ <nav>
+        <pre>Главная     О компании     Контакты</pre>
+    </nav>  
+</head>
+<body>
+<div class="fon">BEABADOOBEE</div>
+<button class="hover">подробнее</button>
+<div class="flex-container">
+        <div class="flex-card">
+            <img src="https://avatars.yandex.net/get-music-content/9837520/72fabb9d.a.31858689-1/m1000x1000" alt="Beatopia" width="400*">
+            <h1>BEATOPIA</h1>
+            <p>200₽</p>
+            <p>VZE</p>
+            <button class="hover">Купить</button>
+        </div>
+        <div class="flex-card">
+            <img src="https://avatars.yandex.net/get-music-content/2480468/771d9ec6.a.6136352-2/m1000x1000?webp=false" alt="patched up" width="400*">
+             <h1>Patched up</h1>
+             <p>400₽</p>
+             <p>VZE</p>
+             <button class="hover">Купить</button>
+        </div>
+        <div class="flex-card">
+            <img src="https://images.squarespace-cdn.com/content/v1/50527c0c24ac3b03d5345ee2/dd283d87-789f-4078-b043-5bc2d9ca0c9f/unnamed+%285%29.jpg" alt="glue song" width="400*">
+            <h1>Glue song</h1>
+            <p>300₽</p>
+            <p>VZE</p>
+            <button class="hover">Купить</button>
+        </div>
+</div>
+<div class="fon2">Spinning out on what to say or what to do
+Finding reasons for my constant change in mood
+Said I'll see it to believe it, but who knows the actual truth?</div>
+<footer>beabadobee</footer>
+</body>
+</html>
